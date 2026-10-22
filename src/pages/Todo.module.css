@@ -1,0 +1,24 @@
+.page { padding-top: 56px; padding-bottom: 90px; }
+.heading { padding: 18px 0 45px; }
+.heading h1 { margin: 0; font: 400 clamp(3.5rem, 7vw, 6.4rem)/1 var(--serif); letter-spacing: -.06em; }
+.heading h1 em { color: var(--accent); font-weight: 400; }
+.heading > p:last-child { max-width: 570px; margin: 22px 0 0; color: var(--muted); font-size: .92rem; line-height: 1.8; }
+.todoLayout { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(240px, .55fr); align-items: start; gap: 26px; }
+.listPanel { padding: 28px; border: 1px solid var(--line); background: var(--surface); }
+.listHeader { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.listHeader .eyebrow { margin-bottom: 7px; } .listHeader h2 { margin: 0; font: 500 2rem var(--serif); }
+.progress { display: flex; align-items: baseline; gap: 7px; } .progress strong { color: var(--accent); font: 1.5rem var(--serif); } .progress span { color: var(--muted); font-size: .7rem; }
+.addForm { display: flex; gap: 9px; margin-top: 25px; }
+.addForm input { flex: 1; min-width: 0; height: 45px; padding: 0 13px; border: 1px solid var(--line); outline: none; background: var(--paper); font: inherit; font-size: .8rem; }
+.addForm input:focus { border-color: var(--accent); }
+.error { margin: 10px 0 0; color: #963b2d; font-size: .78rem; }
+.taskList { margin: 12px 0 0; padding: 0; list-style: none; }
+.listFooter { display: flex; align-items: center; justify-content: space-between; gap: 15px; padding-top: 17px; color: var(--muted); font-size: .72rem; }
+.listFooter button { padding: 0; border: 0; background: transparent; color: var(--accent); font: inherit; font-weight: 700; }
+.empty { padding: 45px 15px; text-align: center; } .empty > span { display: inline-grid; place-items: center; width: 40px; height: 40px; border: 1px solid var(--line); border-radius: 50%; color: var(--accent); }
+.empty h3 { margin: 15px 0 4px; font: 500 1.6rem var(--serif); } .empty p { margin: 0; color: var(--muted); font-size: .82rem; }
+.tip { padding: 25px; background: var(--ink); color: var(--paper); } .tip .eyebrow { color: #d8a18b; } .tip h2 { margin: 0 0 20px; font: 500 1.8rem/1.2 var(--serif); }
+.tip > p:not(.eyebrow) { color: #c6c0b5; font-size: .82rem; } .tip ul { display: grid; gap: 13px; margin: 15px 0 0; padding-left: 18px; color: #c6c0b5; font-size: .8rem; line-height: 1.7; } .tip strong { color: var(--paper); }
+.srOnly { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+@media (max-width: 800px) { .todoLayout { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .page { padding-top: 35px; padding-bottom: 60px; } .heading { padding-top: 15px; padding-bottom: 30px; } .heading h1 { font-size: 3.45rem; } .listPanel { padding: 19px; } .listHeader { align-items: flex-start; } .listHeader h2 { font-size: 1.7rem; } .addForm { flex-direction: column; } .addForm .button { width: 100%; } .progress { flex-direction: column; align-items: flex-end; gap: 0; } }

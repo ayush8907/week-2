@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Everyday Headphones",
+    "category": "Audio",
+    "price": 1999,
+    "description": "Comfortable over-ear headphones for study sessions, commutes, and everyday listening.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=85",
+    "tag": "BESTSELLER"
+  },
+  {
+    "id": 2,
+    "name": "Stoneware Coffee Mug",
+    "category": "Home",
+    "price": 399,
+    "description": "A simple ceramic mug made for slow mornings and strong coffee.",
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+    "tag": "EVERYDAY"
+  },
+  {
+    "id": 3,
+    "name": "Classic Wristwatch",
+    "category": "Accessories",
+    "price": 2499,
+    "description": "A clean, timeless watch with a minimal face and a versatile everyday look.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=85",
+    "tag": "NEW"
+  },
+  {
+    "id": 4,
+    "name": "Canvas Backpack",
+    "category": "Bags",
+    "price": 1499,
+    "description": "A practical canvas bag with room for a laptop, notebook, and daily essentials.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=85",
+    "tag": "PRACTICAL"
+  },
+  {
+    "id": 5,
+    "name": "Desk Notebook",
+    "category": "Stationery",
+    "price": 299,
+    "description": "A compact notebook for project notes, daily plans, and ideas worth keeping.",
+    "image": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=900&q=85",
+    "tag": "STUDENT PICK"
+  },
+  {
+    "id": 6,
+    "name": "Minimal Desk Lamp",
+    "category": "Home",
+    "price": 1199,
+    "description": "Soft, focused lighting for late-night reading and focused work at your desk.",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=85",
+    "tag": "DESK SETUP"
+  }
+]

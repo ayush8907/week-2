@@ -1,0 +1,4 @@
+.footer { margin-top: auto; border-top: 1px solid var(--line); background: var(--paper-deep); }
+.inner { min-height: 74px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.inner p { margin: 0; color: var(--muted); font-size: .74rem; }
+@media (max-width: 620px) { .inner { align-items: flex-start; flex-direction: column; justify-content: center; gap: 7px; padding: 18px 0; } }

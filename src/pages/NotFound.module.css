@@ -1,0 +1,5 @@
+.page { padding-top: 100px; padding-bottom: 120px; }
+.page h1 { margin: 0; font: 400 clamp(3.6rem, 7vw, 6rem)/1 var(--serif); letter-spacing: -.06em; }
+.page h1 em { color: var(--accent); font-weight: 400; }
+.page p:not(.eyebrow) { color: var(--muted); }
+.link { display: inline-block; margin-top: 15px; padding-bottom: 5px; border-bottom: 1px solid var(--accent); font-weight: 700; font-size: .82rem; }

@@ -1,0 +1,10 @@
+.header { border-bottom: 1px solid var(--line); background: #faf8f3; }
+.inner { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 25px; }
+.brand { display: inline-flex; align-items: center; gap: 11px; font-family: var(--serif); font-size: 1.1rem; font-weight: 600; letter-spacing: -.03em; white-space: nowrap; }
+.brandMark { display: grid; place-items: center; width: 36px; height: 36px; background: var(--ink); color: var(--paper); font: 700 .7rem "DM Sans", sans-serif; letter-spacing: .05em; }
+.period { color: var(--accent); }
+.nav { display: flex; align-items: center; gap: 8px; }
+.navLink { padding: 10px 12px; color: var(--muted); font-size: .8rem; font-weight: 600; }
+.navLink:hover { color: var(--ink); }
+.active { background: var(--paper-deep); color: var(--accent); }
+@media (max-width: 620px) { .inner { align-items: flex-start; flex-direction: column; justify-content: center; gap: 14px; padding: 15px 0; } .brand { font-size: 1rem; } .nav { width: 100%; gap: 4px; } .navLink { padding: 9px 10px; font-size: .76rem; } }

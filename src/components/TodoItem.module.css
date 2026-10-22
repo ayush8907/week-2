@@ -1,0 +1,7 @@
+.item { display: flex; align-items: center; justify-content: space-between; gap: 15px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.taskLabel { display: flex; align-items: center; gap: 12px; min-width: 0; cursor: pointer; }
+.taskLabel input { width: 17px; height: 17px; accent-color: var(--accent); flex-shrink: 0; }
+.taskText { overflow-wrap: anywhere; font-size: .9rem; }
+.completed .taskText { color: var(--muted); text-decoration: line-through; }
+.deleteButton { flex-shrink: 0; font-size: .75rem; }
+.deleteButton:hover { color: #8a3024; }

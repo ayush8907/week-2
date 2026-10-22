@@ -1,0 +1,14 @@
+.page { padding-top: 58px; padding-bottom: 90px; }
+.pageHeading { display: flex; align-items: end; justify-content: space-between; gap: 30px; margin-bottom: 38px; }
+.pageHeading h1 { margin: 0; font: 400 clamp(3.4rem, 7vw, 6rem)/1 var(--serif); letter-spacing: -.055em; }
+.pageHeading h1 em { color: var(--accent); font-weight: 400; }
+.intro { max-width: 570px; margin: 20px 0 0; color: var(--muted); font-size: .92rem; line-height: 1.8; }
+.cart { display: grid; grid-template-columns: auto auto; align-items: center; gap: 12px; padding: 15px 18px; border: 1px solid var(--line); white-space: nowrap; }
+.cartLabel { color: var(--muted); font-size: .62rem; font-weight: 700; letter-spacing: .1em; }
+.cart strong { color: var(--accent); font: 1.7rem var(--serif); }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.message { display: flex; align-items: center; justify-content: space-between; gap: 15px; padding: 12px 15px; margin: 0 0 22px; border: 1px solid #c9d0b8; background: #eff0e8; color: #455039; font-size: .82rem; }
+.message button { border: 0; background: transparent; color: inherit; font-size: 1.2rem; }
+.status, .error { padding: 35px 0; color: var(--muted); } .error { color: #91382b; }
+@media (max-width: 980px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 650px) { .page { padding-top: 35px; padding-bottom: 60px; } .pageHeading { align-items: flex-start; flex-direction: column; } .pageHeading h1 { font-size: 3.5rem; } .grid { grid-template-columns: 1fr; } }
